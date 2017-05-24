@@ -1,5 +1,7 @@
 package datatypes;
 
+import java.util.List;
+
 public class Coordinate {
 	private XCoordinate x;
 	private YCoordinate y;
@@ -39,6 +41,8 @@ public class Coordinate {
 			return false;
 		return true;
 	}
+
+
 
 
 	

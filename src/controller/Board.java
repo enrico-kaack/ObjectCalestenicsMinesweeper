@@ -16,5 +16,9 @@ public class Board {
 		System.out.println("You hit a bomb.");
 		System.exit(0);
 	}
+	
+	public void print(){
+		
+	}
 
 }
