@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import controller.Board;
+
 public class Bombs {
 	List<Coordinate> bombs;
 
@@ -14,6 +16,12 @@ public class Bombs {
 		for (int i = 0; i < 10; i++) {
 			addRandomMine(completeList);
 		}
+	}
+	
+	public void isBomb(Coordinate inputCoordinate, Board board){
+		bombs.contains(inputCoordinate);
+		board.lost();
+		
 	}
 	
 	
